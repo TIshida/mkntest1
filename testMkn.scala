@@ -162,3 +162,4 @@ object Mkn {
   private implicit def scallopOpt2content[T](from: org.rogach.scallop.ScallopOption[T]): T = from.get.get
 }
 
+// appended from testAdd
